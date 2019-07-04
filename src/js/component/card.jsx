@@ -8,9 +8,7 @@ export class Card extends React.Component {
 				{({ store, actions }) => {
 					return store.characters.map((item, index) => {
 						return (
-							<div
-								className="card col-sm-4 d-inline-flex overflow:scroll"
-								key={index}>
+							<div className="card d-inline-block " key={index}>
 								<img
 									src="https://avatarfiles.alphacoders.com/118/118895.jpg"
 									className="card-img-top "
